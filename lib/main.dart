@@ -26,68 +26,190 @@ class RowWidget extends StatelessWidget {
         home: Scaffold(
             appBar: AppBar(),
             drawer: const Drawer(),
-            body: Container(
-              child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    ///
-                    ///
-                    Container(
-                      padding: const EdgeInsets.all(5),
-                      constraints:
-                          BoxConstraints.tight(const Size.fromRadius(60)),
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                          color: Colors.blue[400], shape: BoxShape.circle),
-                      child: const Text(
-                        "I hope to be a good programmer.",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold),
+            body: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ///
+                      ///
+                      Container(
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "I hope to be a good programmer.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
-                    ),
-                    ///
-                    ///
-                    Container(
-                      padding: const EdgeInsets.all(5),
-                      constraints:
-                          BoxConstraints.tight(const Size.fromRadius(60)),
-                      alignment: Alignment.center,
-                      decoration: const BoxDecoration(
-                          color: Color.fromARGB(255, 203, 107, 28),
-                          shape: BoxShape.circle),
-                      child: const Text(
-                        "But you can not be",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 50),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: const BoxDecoration(
+                            color: Color.fromARGB(255, 203, 107, 28),
+                            shape: BoxShape.circle),
+                        child: const Text(
+                          "But you can not be",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
-                    ),
-                    ///
-                    ///
-                    Container(
-                      padding: const EdgeInsets.all(5),
-                      constraints:
-                          BoxConstraints.tight(const Size.fromRadius(60)),
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                          color: Colors.blue[400], shape: BoxShape.circle),
-                      child: const Text(
-                        "if you 're not ready to work hard",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 100),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "if you 're not ready to work hard",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    ]),
+                Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ///
+                      ///
+                      Container(
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "I hope to be a good programmer.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
-                    )
-                  ]),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 50),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: const BoxDecoration(
+                            color: Color.fromARGB(255, 203, 107, 28),
+                            shape: BoxShape.circle),
+                        child: const Text(
+                          "But you can not be",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 100),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "if you 're not ready to work hard",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    ]),
+                Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ///
+                      ///
+                      Container(
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "I hope to be a good programmer.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 50),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: const BoxDecoration(
+                            color: Color.fromARGB(255, 203, 107, 28),
+                            shape: BoxShape.circle),
+                        child: const Text(
+                          "But you can not be",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      ///
+                      ///
+                      Container(
+                        margin: const EdgeInsets.only(top: 100),
+                        constraints:
+                            BoxConstraints.tight(const Size.fromRadius(60)),
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.blue[400], shape: BoxShape.circle),
+                        child: const Text(
+                          "if you 're not ready to work hard",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    ]),
+              ],
             )));
   }
 }
