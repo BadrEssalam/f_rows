@@ -43,7 +43,7 @@ class RowWidget extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
                         child: const Text(
-                          "I hope to be a good programmer.",
+                          "I hope to be a good programmer",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
@@ -51,6 +51,7 @@ class RowWidget extends StatelessWidget {
                               fontWeight: FontWeight.bold),
                         ),
                       ),
+
                       ///
                       ///
                       Container(
@@ -70,6 +71,7 @@ class RowWidget extends StatelessWidget {
                               fontWeight: FontWeight.bold),
                         ),
                       ),
+
                       ///
                       ///
                       Container(
@@ -89,6 +91,17 @@ class RowWidget extends StatelessWidget {
                         ),
                       )
                     ]),
+                Container(
+                  alignment: Alignment.center,
+                  child: const Text(
+                    "Programmers",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
                 Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -103,14 +116,15 @@ class RowWidget extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
                         child: const Text(
-                          "I hope to be a good programmer.",
+                          "Coding like poetry",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 15,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
+
                       ///
                       ///
                       Container(
@@ -122,7 +136,7 @@ class RowWidget extends StatelessWidget {
                             color: Color.fromARGB(255, 203, 107, 28),
                             shape: BoxShape.circle),
                         child: const Text(
-                          "But you can not be",
+                          "should be",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
@@ -130,6 +144,7 @@ class RowWidget extends StatelessWidget {
                               fontWeight: FontWeight.bold),
                         ),
                       ),
+
                       ///
                       ///
                       Container(
@@ -140,15 +155,26 @@ class RowWidget extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
                         child: const Text(
-                          "if you 're not ready to work hard",
+                          "short and concise",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 15,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
                       )
                     ]),
+                Container(
+                  alignment: Alignment.center,
+                  child: const Text(
+                    "Say",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
                 Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -158,53 +184,35 @@ class RowWidget extends StatelessWidget {
                       ///
                       Container(
                         constraints:
-                            BoxConstraints.tight(const Size.fromRadius(60)),
+                            BoxConstraints.tight(const Size.fromRadius(90)),
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
                         child: const Text(
-                          "I hope to be a good programmer.",
+                          "First, solve the problem",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 15,
+                              fontSize: 28,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
-                      ///
-                      ///
-                      Container(
-                        margin: const EdgeInsets.only(top: 50),
-                        constraints:
-                            BoxConstraints.tight(const Size.fromRadius(60)),
-                        alignment: Alignment.center,
-                        decoration: const BoxDecoration(
-                            color: Color.fromARGB(255, 203, 107, 28),
-                            shape: BoxShape.circle),
-                        child: const Text(
-                          "But you can not be",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ),
+
                       ///
                       ///
                       Container(
                         margin: const EdgeInsets.only(top: 100),
                         constraints:
-                            BoxConstraints.tight(const Size.fromRadius(60)),
+                            BoxConstraints.tight(const Size.fromRadius(90)),
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
                         child: const Text(
-                          "if you 're not ready to work hard",
+                          "Then, write the code",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 15,
+                              fontSize: 28,
                               fontWeight: FontWeight.bold),
                         ),
                       )
